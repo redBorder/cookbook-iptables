@@ -6,3 +6,8 @@
 #
 # All rights reserved - Do Not Redistribute
 #
+
+cookbook_example_config "config" do
+  mystring "test"
+  action :add
+end
