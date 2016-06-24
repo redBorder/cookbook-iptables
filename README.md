@@ -1,4 +1,4 @@
-# http2k Cookbook
+# iptables Cookbook
 
 cookbook to install and configure redborder http2k
 
