@@ -4,7 +4,7 @@
 #
 # Copyright 2016, redborder
 #
-# AFFERO GENERAL PUBLIC LICENSE, Version 3
+# AFFERO GENERAL PUBLIC LICENSE V3
 #
 
 iptables_config "config" do
