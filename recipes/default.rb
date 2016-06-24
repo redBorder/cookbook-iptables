@@ -1,10 +1,10 @@
 #
-# Cookbook Name:: cookbook-example
+# Cookbook Name:: http2k
 # Recipe:: default
 #
-# Copyright 2016, YOUR_COMPANY_NAME
+# Copyright 2016, http2k
 #
-# All rights reserved - Do Not Redistribute
+# AFFERO GENERAL PUBLIC LICENSE, Version 3
 #
 
 cookbook_example_config "config" do
