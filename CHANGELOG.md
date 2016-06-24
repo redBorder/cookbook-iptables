@@ -1,4 +1,4 @@
-cookbook http2k CHANGELOG
+cookbook iptables CHANGELOG
 ==========================
 
 0.0.1

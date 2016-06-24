@@ -1,4 +1,4 @@
-name             'http2k'
+name             'iptables'
 maintainer       'redborder'
 maintainer_email 'ejimenez@redborder.com'
 license          'All rights reserved'

@@ -1,4 +1,4 @@
-# Cookbook Name:: http2k
+# Cookbook Name:: iptables
 #
 # Resource:: config
 #

@@ -1,13 +1,13 @@
 #
-# Cookbook Name:: http2k
+# Cookbook Name:: iptables
 # Recipe:: default
 #
-# Copyright 2016, http2k
+# Copyright 2016, redborder
 #
 # AFFERO GENERAL PUBLIC LICENSE, Version 3
 #
 
-cookbook_example_config "config" do
+iptables_config "config" do
   mystring "test"
   action :add
 end
