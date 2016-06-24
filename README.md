@@ -23,4 +23,4 @@ cookbook to install and configure redborder http2k
 
 Authors: Enrique Jimenez <ejimenez@redborder.com>
 
-LICENSE: AFFERO GENERAL PUBLIC LICENSE, Version 3i, 19 November 2007
+LICENSE: AFFERO GENERAL PUBLIC LICENSE, Version 3, 19 November 2007
