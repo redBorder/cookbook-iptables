@@ -1,9 +1,9 @@
-# Cookbook Name:: cookbook-example
+# Cookbook Name:: example
 #
 # Resource:: config
 #
 
-actions :add, :remove
+actions :add, :remove, :register, :deregister
 default_action :add
 
 attribute :mystring, :kind_of => String, :default => "string example"
