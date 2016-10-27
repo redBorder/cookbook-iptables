@@ -1,6 +1,6 @@
-# Cookbook-example Cookbook
+# example Cookbook
 
-cookbook to install and configure redborder cookbook-example
+cookbook to install and configure redborder example cookbook
 
 ### Platforms
 
@@ -23,4 +23,4 @@ cookbook to install and configure redborder cookbook-example
 GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
 
 ## Authors
-Authors: Enrique Jimenez <ejimenez@redborder.com>
+Authors: Your Name <yourname@redborder.com>
