@@ -37,7 +37,7 @@ action :register do #Usually used to register in consul
   end
 end
 
-action :remove do #Usually used to deregister from consul
+action :deregister do #Usually used to deregister from consul
   begin
      # ... your code here ...
      Chef::Log.info("Example cookbook has been processed")
