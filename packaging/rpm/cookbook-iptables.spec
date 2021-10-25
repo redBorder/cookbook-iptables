@@ -2,7 +2,7 @@
 
 Name: cookbook-iptables
 Version: %{__version}
-Release: %{__release}%{?dist}.1
+Release: %{__release}%{?dist}
 BuildArch: noarch
 Summary: Iptables cookbook to install and configure it in redborder environments
 
@@ -48,5 +48,8 @@ esac
 %doc
 
 %changelog
+* Mon Oct 25 2021 Jordi Hdez <jhernandez@redborder.com> - 0.0.1
+- Add iptables rules
+
 * Fri Oct 22 2021 Jordi Hernández <jhernandez@redborder.com> - %{__version}-%{__release}.1
 - Initial RPM release

@@ -32,6 +32,9 @@
 -A INPUT -m state --state NEW -p icmp -m icmp --icmp-type echo-request -j ACCEPT
 # SSH PORT ALLOWED
 -A INPUT -m state --state NEW -p tcp -m tcp --dport 22 -j ACCEPT
+# DEFAULT PORTS
+-A INPUT -m state --state NEW -p tcp -m tcp --dport 25 -j ACCEPT
+-A INPUT -m state --state NEW -p tcp -m tcp --dport 4443 -j ACCEPT
 # MANAGER SERVICES
 <% if !@manager.nil? && !@manager.empty? %>
   <% m_services = @manager[:redborder][:services] if !@manager[:redborder].nil? && !@manager[:redborder][:services].nil? %>

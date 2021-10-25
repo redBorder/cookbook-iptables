@@ -71,10 +71,26 @@ end
 
 action :remove do #Usually used to uninstall something
   begin
+    config_dir = new_resource.config_dir
+
     service "iptables" do
       supports :stop => true, :disable => true
       action [:stop, :disable]
     end
+    # Delete iptables config file
+    # template "#{config_dir}/iptables" do
+    #   action :delete
+    #   backup false
+    # end
+
+    # Uninstall iptables service.
+    # package 'Uninstall iptables' do
+    #   case node[:platform]
+    #   when 'centos'
+    #     package_name 'iptables-services'
+    #   end
+    #   action :remove
+    # end
 
     Chef::Log.info("Iptables cookbook has been processed")
   rescue => e
