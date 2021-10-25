@@ -2,7 +2,7 @@
 
 Name: cookbook-iptables
 Version: %{__version}
-Release: %{__release}%{?dist}
+Release: %{__release}%{?dist}.1
 BuildArch: noarch
 Summary: Iptables cookbook to install and configure it in redborder environments
 
@@ -40,13 +40,13 @@ esac
 
 %files
 %defattr(0755,root,root)
-/var/chef/cookbooks/example
+%{cookbook_path}
 %defattr(0644,root,root)
-/var/chef/cookbooks/example/README.md
+%{cookbook_path}/README.md
 
 
 %doc
 
 %changelog
-* Tue Oct 18 2016 Your name <yourname@redborder.com> - 1.0.0-1
-- first spec version
+* Fri Oct 22 2021 Jordi Hernández <jhernandez@redborder.com> - %{__version}-%{__release}.1
+- Initial RPM release

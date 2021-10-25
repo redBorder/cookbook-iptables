@@ -1,13 +1,12 @@
 #
-# Cookbook Name:: example
+# Cookbook Name:: iptables
 # Recipe:: default
 #
-# Copyright 2016, YOUR_COMPANY_NAME
+# Copyright 2021, YOUR_COMPANY_NAME
 #
 # All rights reserved - Do Not Redistribute
 #
 
-cookbook_example_config "config" do
-  mystring "test"
+iptables_config "Configure iptables" do
   action :add
 end
