@@ -81,6 +81,10 @@
 -A INPUT -m state --state NEW -p udp -m udp --dport 11211 -j ACCEPT
 -A INPUT -m state --state NEW -p tcp -m tcp --dport 11211 -j ACCEPT
   <% end %>
+  <% if m_services["http2k"] %>
+-A INPUT -m state --state NEW -p tcp -m tcp --dport 7980 -j ACCEPT
+-A INPUT -m state --state NEW -p udp -m udp --dport 7980 -j ACCEPT
+  <% end %>
 <% end %>
 # SENSOR SERVICES
 -A INPUT -m state --state NEW -p udp -m udp --dport 514 -j ACCEPT

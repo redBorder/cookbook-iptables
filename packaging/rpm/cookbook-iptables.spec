@@ -45,9 +45,14 @@ esac
 %{cookbook_path}/README.md
 
 
-%doc
 
 %changelog
+* Tue Nov 16 2021 Jordi Hdez <jhernandez@redborder.com> - 0.0.3
+- Added http2k port
+
+* Mon Oct 25 2021 Jordi Hdez <jhernandez@redborder.com> - 0.0.2
+- Add some remove rules
+
 * Mon Oct 25 2021 Jordi Hdez <jhernandez@redborder.com> - 0.0.1
 - Add iptables rules
 

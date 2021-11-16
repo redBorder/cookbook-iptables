@@ -3,6 +3,16 @@ cookbook-iptables CHANGELOG
 
 This file is used to list changes made in each version of the iptables cookbook.
 
+0.0.3
+-----
+- [Jordi Hernández <jhernandez@redborder.com>]
+  - Added http2k port
+
+0.0.2
+-----
+- [Jordi Hernández <jhernandez@redborder.com>]
+  - Add some remove rules
+
 0.0.1
 -----
 - [Jordi Hernández <jhernandez@redborder.com>]
